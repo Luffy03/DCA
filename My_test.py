@@ -11,7 +11,7 @@ from utils.tools import *
 from utils.my_tools import *
 from ever.util.param_util import count_model_parameters
 from module.viz import VisualizeSegmm
-os.environ['CUDA_VISIBLE_DEVICES'] = "1"
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 
 
 def evaluate_nj(model, cfg, is_training=False, ckpt_path=None):
