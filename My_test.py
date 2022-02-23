@@ -54,7 +54,7 @@ def evaluate_nj(model, cfg, is_training=False, ckpt_path=None):
 
 if __name__ == '__main__':
     seed_torch(2333)
-    ckpt_path = './log/MSE/2rural/RURAL5000.pth'
+    ckpt_path = './log/URBAN_0.4635.pth'
     from module.Encoder import Deeplabv2
 
     cfg = import_config('st.my.2urban')
@@ -65,7 +65,7 @@ if __name__ == '__main__':
             output_stride=16,
             pretrained=True,
         ),
-        multi_layer=False,
+        multi_layer=True,
         cascade=False,
         use_ppm=True,
         ppm=dict(
