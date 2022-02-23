@@ -9,10 +9,11 @@ The code is based on <a href="https://junjue-wang.github.io/homepage/">Junjue Wa
 - python >=3.6
 - pandas >= 1.1.5
 
-### Install Ever + Segmentation Models PyTorch
+### Install Ever + Segmentation Models PyTorch + audtorch
 ```bash
 pip install ever-beta==0.2.3
 pip install git+https://github.com/qubvel/segmentation_models.pytorch
+pip install audtorch
 ```
 
 
