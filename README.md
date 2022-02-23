@@ -7,6 +7,14 @@ Code for TGRS 2022 paper, under review
 - pytorch >= 1.7.0
 - python >=3.6
 - pandas >= 1.1.5
+
+### Install Ever + Segmentation Models PyTorch
+```bash
+pip install ever-beta==0.2.3
+pip install git+https://github.com/qubvel/segmentation_models.pytorch
+```
+
+
 ### Prepare LoveDA Dataset
 
 ```bash
