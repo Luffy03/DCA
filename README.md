@@ -42,3 +42,12 @@ python DCA_train.py
 The training [<b>logs</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
 
 ## Citation
+### Citation ✏️ 📄
+
+If you find this repo useful for your research, please consider citing the paper as follows:
+
+```
+waiting
+```
+
+For any questions, please contact Linshan Wu.
