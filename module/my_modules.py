@@ -11,28 +11,6 @@ import torch
 from audtorch.metrics.functional import pearsonr
 
 
-def uncert_loss(preds, label):
-    """
-    This function returns cross entropy loss with uncertainty for weights
-    """
-    pred1, pred2 = preds
-    if pred1.size()[-2:] != label.size()[-2:]:
-        pred1 = F.interpolate(pred1, size=label.size()[-2:], mode='bilinear', align_corners=True)
-    if pred2.size()[-2:] != label.size()[-2:]:
-        pred2 = F.interpolate(pred2, size=label.size()[-2:], mode='bilinear', align_corners=True)
-
-    pred1_soft, pred2_soft = pred1.softmax(dim=1), pred2.softmax(dim=1)
-
-    uncert = - pred1_soft * torch.log(pred2_soft + 1e-6) \
-             - pred2_soft * torch.log(pred1_soft + 1e-6)
-    mask = torch.exp(-uncert.sum(1))
-
-    loss = F.cross_entropy(pred1, label.long(), ignore_index=-1) + \
-           F.cross_entropy(pred2, label.long(), ignore_index=-1)
-    loss = (mask * loss).mean() + uncert.mean()
-    return loss
-
-
 class CategoryAlign_Module(nn.Module):
     def __init__(self, num_classes=7, ignore_bg=False):
         super(CategoryAlign_Module, self).__init__()
