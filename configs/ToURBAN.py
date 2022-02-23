@@ -39,11 +39,6 @@ SOURCE_DATA_CONFIG = dict(
             VerticalFlip(True),
             RandomRotate90(True)
         ], p=0.75),
-        RGBShift(p=0.1),
-        HueSaturationValue(p=0.1),
-        RandomGamma(p=0.1),
-        RandomBrightnessContrast(p=0.1),
-        RandomShadow(shadow_roi=(0, 0, 1, 1), num_shadows_lower=1, num_shadows_upper=4, p=0.5),
         Normalize(mean=(73.53223948, 80.01710095, 74.59297778),
                   std=(41.5113661,  35.66528876, 33.75830885),
                   max_pixel_value=1, always_apply=True),
@@ -70,11 +65,6 @@ TARGET_DATA_CONFIG = dict(
             VerticalFlip(True),
             RandomRotate90(True)
         ], p=0.75),
-        RGBShift(p=0.1),
-        HueSaturationValue(p=0.1),
-        RandomGamma(p=0.1),
-        RandomBrightnessContrast(p=0.1),
-        RandomShadow(shadow_roi=(0, 0, 1, 1), num_shadows_lower=1, num_shadows_upper=4, p=0.5),
         Normalize(mean=(73.53223948, 80.01710095, 74.59297778),
                   std=(41.5113661, 35.66528876, 33.75830885),
                   max_pixel_value=1, always_apply=True),
