@@ -15,11 +15,12 @@ ln -s </path/to/LoveDA> ./LoveDA
 
 
 ### Evaluate DCA Model on the predict set
-#### 1. Download the pre-trained [<b>weights</b>](https://drive.google.com/drive/folders/1xFn1d8a4Hv4il52hLCzjEy_TY31RdRtg?usp=sharing)
+#### 1. Download the pre-trained [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
 #### 2. Move weight file to log directory
 ```bash
 mkdir -vp ./log/
-mv ./Urban10000_0.4635.pth ./log/Urban10000_0.4635.pth
+mv ./URBAN_0.4635.pth ./log/URBAN_0.4635.pth
+mv ./RURAL_0.4517.pth ./log/RURAL_0.4517.pth
 ```
 
 #### 3. Evaluate on Urban test set
@@ -29,3 +30,4 @@ Submit your test results on [LoveDA Unsupervised Domain Adaptation Challenge](ht
 ```bash 
 python DCA_train.py
 ```
+The training logs [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
