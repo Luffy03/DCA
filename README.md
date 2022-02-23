@@ -1,2 +1,2 @@
-# DeepCovarianceAlignment-DCA-
+# DeepCovarianceAlignment-DCA
 Code for TGRS 2022
