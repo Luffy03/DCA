@@ -30,4 +30,4 @@ Submit your test results on [LoveDA Unsupervised Domain Adaptation Challenge](ht
 ```bash 
 python DCA_train.py
 ```
-The training logs [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
+The training logs [<b>logs</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
