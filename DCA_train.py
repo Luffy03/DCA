@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# @Filename: My_multi_regularize_train
+# @Filename: DCA_train
 # @Project : Unsupervised_Domian_Adaptation
 # @date    : 2021-12-10 19:14
 # @Author  : Linshan
