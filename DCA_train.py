@@ -158,7 +158,7 @@ def main():
 
                 # loss
                 loss_seg = loss_calc([pred_s1, pred_s2], lab_s, multi=True)
-                loss_pseudo = uncert_loss([pred_t1, pred_t2], lab_t)
+                loss_pseudo = loss_calc([pred_t1, pred_t2], lab_t, multi=True)
 
                 source_intra = ICR([pred_s1, pred_s2, feat_s],
                                                        multi_layer=True)
