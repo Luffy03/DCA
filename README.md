@@ -1,5 +1,6 @@
 # Deep Covariance Alignment (DCA)
-Code for TGRS 2022 paper, under review
+Code for TGRS 2022 paper, under review.
+
 The code is based on <a href="https://junjue-wang.github.io/homepage/">Junjue Wang's</a> implementation in <a href="https://github.com/Junjue-Wang/LoveDA">LoveDA</a>. Appreciate it!
 ## Getting Started
 
