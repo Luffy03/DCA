@@ -1,5 +1,5 @@
 # Deep Covariance Alignment (DCA)
-Code for TGRS 2022 paper
+Code for TGRS 2022 paper, under review
 
 ## Getting Started
 
