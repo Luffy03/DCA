@@ -50,7 +50,7 @@ def evaluate_nj(model, cfg, is_training=False, ckpt_path=None, logger=None):
 
 if __name__ == '__main__':
     seed_torch(2333)
-    ckpt_path = './log/multi_regularize/2rural/RURAL4000.pth'
+    ckpt_path = './log/DCA/2rural/RURAL4000.pth'
     from module.Encoder import Deeplabv2
 
     model = Deeplabv2(dict(
