@@ -29,7 +29,9 @@ def evaluate_nj(model, cfg, is_training=False, ckpt_path=None):
     print(cfg.TEST_DATA_CONFIG)
     test_dataloader = TestLoader(cfg.TEST_DATA_CONFIG)
 
-    save_path = './log/MSE/2urban/result'
+    save_path = './log/DCA/2urban/result'
+    # save_path = './log/DCA/2rural/result'
+    
     if not os.path.exists(save_path):
         os.makedirs(save_path)
 
@@ -40,7 +42,6 @@ def evaluate_nj(model, cfg, is_training=False, ckpt_path=None):
             # old predict
             # cls = model(rgb)
             # slide predict
-            # cls = tta_predict(model, rgb)
             cls = pre_slide(model, rgb, num_classes=7, tile_size=(512, 512), tta=True)
 
             cls = cls.argmax(dim=1).cpu().numpy()
