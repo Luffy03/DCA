@@ -6,7 +6,7 @@ IGNORE_LABEL = -1
 MOMENTUM = 0.9
 NUM_CLASSES = 7
 
-SNAPSHOT_DIR = './log/MSE/2urban'
+SNAPSHOT_DIR = './log/DCA/2urban'
 
 # Hyper Paramters
 WEIGHT_DECAY = 0.0005
