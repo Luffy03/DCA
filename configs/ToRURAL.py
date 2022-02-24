@@ -47,7 +47,7 @@ SOURCE_DATA_CONFIG = dict(
     CV=dict(k=10, i=-1),
     training=True,
     batch_size=8,
-    num_workers=2,
+    num_workers=8,
 )
 
 
@@ -69,7 +69,7 @@ TARGET_DATA_CONFIG = dict(
     CV=dict(k=10, i=-1),
     training=True,
     batch_size=8,
-    num_workers=2,
+    num_workers=8,
 )
 
 EVAL_DATA_CONFIG = dict(
