@@ -11,7 +11,6 @@ import os.path as osp
 import torch.backends.cudnn as cudnn
 import torch.optim as optim
 import math
-from My_eval import evaluate_nj
 from utils.tools import *
 from utils.my_tools import *
 from module.Encoder import Deeplabv2
