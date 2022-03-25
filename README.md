@@ -1,6 +1,7 @@
 # Deep Covariance Alignment (DCA)
 Code for TGRS 2022 paper, **"Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation"**, accepted.
-Linshan Wu, Ming Lu, <a href="https://sites.google.com/site/leyuanfang/home">Leyuan Fang</a>
+
+Authors: Linshan Wu, Ming Lu, <a href="https://sites.google.com/site/leyuanfang/home">Leyuan Fang</a>
 
 This repository highly depends on the <a href="https://github.com/Junjue-Wang/LoveDA">LoveDA</a> repository implemented by <a href="https://junjue-wang.github.io/homepage/">Junjue Wang</a>. We thank the authors for their great work and clean code. Appreciate it!
 ## Getting Started
