@@ -52,4 +52,4 @@ If you find this repo useful for your research, please consider citing the paper
 waiting
 ```
 
-For any questions, please contact Linshan Wu.
+For any questions, please contact [Linshan Wu](15274891948@163.com).
