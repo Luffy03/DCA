@@ -38,6 +38,7 @@ mv ./RURAL_0.4517.pth ./log/RURAL_0.4517.pth
 ### 3. Evaluate on Urban test set
 Submit your test results on [LoveDA Unsupervised Domain Adaptation Challenge](https://codalab.lisn.upsaclay.fr/competitions/424) and you will get your Test score.
 
+Or you can download our [<b>results</b>](https://drive.google.com/drive/folders/1WQdgveVwW016BMKvw1Afj6o_MQ9UcZeA)
 ## Train DCA Model
 ```bash 
 python DCA_train.py
