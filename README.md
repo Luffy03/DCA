@@ -33,6 +33,7 @@ ln -s </path/to/LoveDA> ./LoveDA
 mkdir -vp ./log/
 mv ./URBAN_0.4635.pth ./log/URBAN_0.4635.pth
 mv ./RURAL_0.4517.pth ./log/RURAL_0.4517.pth
+python My_test.py
 ```
 
 ### 3. Evaluate on Urban test set
