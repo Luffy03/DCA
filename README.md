@@ -1,5 +1,5 @@
 # Deep Covariance Alignment (DCA)
-Code for TGRS 2022 paper, **"Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation"**, accepted.
+Code for TGRS 2022 paper, [**"Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation"**](https://ieeexplore.ieee.org/document/9745130), accepted.
 
 Authors: Linshan Wu, Ming Lu, <a href="https://sites.google.com/site/leyuanfang/home">Leyuan Fang</a>
 
@@ -51,7 +51,15 @@ The training [<b>logs</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tT
 If you find this repo useful for your research, please consider citing the paper as follows:
 
 ```
-waiting
+@ARTICLE{9745130,
+  author={Wu, Linshan and Lu, Ming and Fang, Leyuan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TGRS.2022.3163278}}
 ```
 
 For any questions, please contact [Linshan Wu](mailto:15274891948@163.com).
