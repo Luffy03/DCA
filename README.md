@@ -26,7 +26,7 @@ ln -s </path/to/LoveDA> ./LoveDA
 ```
 
 
-## Evaluate DCA Model on the predict set
+## Evaluate DCA Model on the test set
 ### 1. Download the pre-trained [<b>weights</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tTx7JeDQknxRNd3mgW2kQ)
 ### 2. Move weight file to log directory
 ```bash
@@ -36,7 +36,7 @@ mv ./RURAL_0.4517.pth ./log/RURAL_0.4517.pth
 python My_test.py
 ```
 
-### 3. Evaluate on Urban test set
+### 3. Evaluate on the website
 Submit your test results on [LoveDA Unsupervised Domain Adaptation Challenge](https://codalab.lisn.upsaclay.fr/competitions/424) and you will get your Test score.
 
 Or you can download our [<b>results</b>](https://drive.google.com/drive/folders/1WQdgveVwW016BMKvw1Afj6o_MQ9UcZeA)
