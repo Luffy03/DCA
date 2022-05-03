@@ -52,13 +52,14 @@ If you find this repo useful for your research, please consider citing the paper
 
 ```
 @ARTICLE{9745130,
+  @ARTICLE{9745130,
   author={Wu, Linshan and Lu, Ming and Fang, Leyuan},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation}, 
   year={2022},
-  volume={},
+  volume={60},
   number={},
-  pages={1-1},
+  pages={1-11},
   doi={10.1109/TGRS.2022.3163278}}
 ```
 
