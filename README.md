@@ -51,7 +51,7 @@ The training [<b>logs</b>](https://drive.google.com/drive/folders/1oenWpYADqd-tT
 If you find this repo useful for your research, please consider citing the paper as follows:
 
 ```
-@ARTICLE{9745130,
+@ARTICLE{DCA,
   author={Wu, Linshan and Lu, Ming and Fang, Leyuan},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation}, 
